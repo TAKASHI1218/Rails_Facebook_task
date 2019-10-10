@@ -8,6 +8,7 @@ gem 'better_errors'
 gem 'binding_of_caller'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'bcrypt', '3.1.11'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
