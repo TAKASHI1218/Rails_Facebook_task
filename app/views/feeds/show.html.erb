@@ -10,5 +10,12 @@
   <%= @feed.content %>
 </p>
 
+<p>
+  <strong>USER_NAME:</strong>
+  <%= @feed.user.name %>
+</p>
+
+
+
 <%= link_to 'Edit', edit_feed_path(@feed) %> |
 <%= link_to 'Back', feeds_path %>
