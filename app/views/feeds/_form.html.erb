@@ -4,9 +4,9 @@
       <h2><%= pluralize(feed.errors.count, "error") %> prohibited this feed from being saved:</h2>
 
       <ul>
-      <% feed.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
+        <% feed.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
       </ul>
     </div>
   <% end %>
@@ -14,9 +14,10 @@
   <div class="field">
     <%= form.label :image %>
     <div class="buttons">
-    <%= image_tag(@feed.image.url) if @feed.image && @feed.image.url %>
-    <%= form.file_field :image %>
-    <%= form.hidden_field :image_cache %></div>
+      <%= image_tag(@feed.image.url) if @feed.image && @feed.image.url %>
+      <%= form.file_field :image %>
+      <%= form.hidden_field :image_cache %>
+    </div>
   </div>
 
   <div class="field2">
