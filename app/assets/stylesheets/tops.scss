@@ -9,7 +9,7 @@ header ul {
   list-style: none;
 }
 
-header ul a {
+header ul {
   display: block;
   padding: 15px;
   text-decoration: none;
@@ -18,7 +18,10 @@ header ul a {
 
 header li {
   float: left;
+  color: white;
+  height: auto;
   width: auto;
+  font-size: 30px;
 }
 
 header ul:after {
