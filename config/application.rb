@@ -1,6 +1,7 @@
 require_relative 'boot'
 
 require 'rails/all'
+config.assets.initialize_on_precompile = false
 
 
 
