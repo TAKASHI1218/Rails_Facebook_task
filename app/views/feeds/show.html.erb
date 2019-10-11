@@ -1,28 +1,25 @@
 <p id="notice"><%= notice %></p>
 <div class = "container">
-<p>
-  <strong>Image:</strong>
+  <p>
+    <strong>Image:</strong>
 
-  <%= image_tag @feed.image.url %>
-</p>
+    <%= image_tag @feed.image.url %>
+  </p>
 
-<p>
-  <strong>Content:</strong>
-  <%= @feed.content %>
-</p>
+  <p>
+    <strong>Content:</strong>
+    <%= @feed.content %>
+  </p>
 
-<p>
-  <strong>USER_NAME:</strong>
-  <%= @feed.user.name %>
-</p>
+  <p>
+    <strong>USER_NAME:</strong>
+    <%= @feed.user.name %>
+  </p>
 
+  <button type="button" class="btn btn-default">
+    <%= link_to 'Edit', edit_feed_path(@feed) %></button>
 
-
-
-<button type="button" class="btn btn-default">
-  <%= link_to 'Edit', edit_feed_path(@feed) %></button>
-
-<button type="button" class="btn btn-default">
-<%= link_to 'Back', feeds_path %></button>
+  <button type="button" class="btn btn-default">
+    <%= link_to 'Back', feeds_path %></button>
 
 </div>
