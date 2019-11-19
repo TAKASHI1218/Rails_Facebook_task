@@ -1,2 +1,2 @@
 server '3.113.159.166', user: 'app', roles: %w{app db web}
-set :ssh_options, keys: '/c/Users/TAKASHI1218/.ssh/id_rsa'
+set :ssh_options, keys: '/home/vagrant/.ssh/id_rsa'
