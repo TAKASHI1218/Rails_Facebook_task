@@ -5,7 +5,6 @@ ruby '2.6.3'
 
 
 gem 'net-ssh'
-
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
