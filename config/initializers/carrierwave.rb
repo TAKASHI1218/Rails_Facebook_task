@@ -20,8 +20,8 @@ CarrierWave.configure do |config|
     when 'production'
       config.fog_directory = 'sample10-production'
       config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/sample10-production'
-    when 'development'
-      config.fog_directory = 'sample10-production'
-      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/sample10-production'
+    # when 'development'
+    #   config.fog_directory = 'sample10-production'
+    #   config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/sample10-production'
   end
 end
