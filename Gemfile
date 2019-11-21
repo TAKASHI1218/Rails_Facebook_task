@@ -10,7 +10,7 @@ gem 'jquery-ui-rails'
 
 
 gem 'dotenv-rails' # 開発環境で環境変数を操作するのに必要
-gem 'unicorn', '5.4.1' # アプリケーションサーバのunicorn
+gem 'unicorn'# アプリケーションサーバのunicorn
 gem 'mini_racer', platforms: :ruby # デプロイ時に必要
 gem 'fog-aws'
 gem 'dotenv-rails'
